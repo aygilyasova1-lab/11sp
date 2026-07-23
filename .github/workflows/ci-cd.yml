@@ -1,5 +1,4 @@
-Использую GitHub Container Registry, т.к. Docker Hub может быть недоступен
-
+#Использую GitHub Container Registry, т.к. Docker Hub может быть недоступен
 name: CI/CD
 
 on:
@@ -29,6 +28,7 @@ jobs:
 
    - name: Setup Go
      uses: actions/setup-go@v5
+
      with:
       go-version: '1.22'
 
